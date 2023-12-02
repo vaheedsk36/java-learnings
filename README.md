@@ -34,3 +34,8 @@
 | char    | '\u0000'      | 16 bits (2 bytes)   | 0 to 65536                                  |
 | boolean | FALSE         | 1 bit (1 byte)      | 0 or 1                                       |
 +---------+---------------+---------------------+----------------------------------------------+
+- class and object notes pending
+
+### Method Overloading (ClassesAnObject file)
+
+Method overloading in Java allows a class to have multiple methods with the same name but different parameters. The parameters can differ in the number of parameters or their types. The compiler determines which method to invoke based on the number and types of arguments provided.
