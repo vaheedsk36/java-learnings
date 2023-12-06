@@ -40,5 +40,20 @@
 
 Method overloading in Java allows a class to have multiple methods with the same name but different parameters. The parameters can differ in the number of parameters or their types. The compiler determines which method to invoke based on the number and types of arguments provided.
 
-### Topic Skipped
+### String
+
+- String is by default immutable in java (also read about string constant pool for more)
+- StringBuffer and StringBuilder are used to create immutable strings
+
+### Static variables (StaticVariable.java)
+
+- Static variable have same values for the objects created from the same class
+- Static variables values must be set using the class ClassName.static_variable_value
+
+
+### Topic need to study more
+
 [1] Jagged Array
+[2] Enhanced for loop
+[3] String constant pool
+[4] Static methods
