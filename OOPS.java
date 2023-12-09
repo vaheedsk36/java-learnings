@@ -1,11 +1,11 @@
-//*OOPS concepts to cover */
+//* OOPS concepts to cover */
 // polymorphism(covered)
 // inheritance(covered)
 // encapsulation(covered)
-// abstraction
 // packages
+// abstraction
 
-//*Thing we covered in this code */
+//* Thing we covered in this code */
 // single inheritance
 // ternary operator
 // constructors
@@ -34,7 +34,7 @@ class Hyundai extends Car {
     boolean warrantyAvailable;
     boolean emiAvailable;
     private int chassisNumber;
-    // We have violated DRY principal, ignore it its for demo purpose only...
+    // We have violated DRY principle, ignore it its for demo purpose only...
     void carModelDetails(String model) {
 
         for (int i = 0; i < availableModels.length; i++) {
